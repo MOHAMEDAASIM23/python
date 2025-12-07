@@ -50,21 +50,11 @@ l -> 3
 0 -> 4
 indexing starts from 0
 """
-#accesing characters using indexing
-first_char = sample_str[0]
-second_char = sample_str[1]
-third_char = sample_str[2]
-last_char = sample_str[4]
-error_char = sample_str[5]#Index error: string index out of range
-print("First character:", first_char)
-print("Second character:", second_char)
-print("Third character:", third_char)   
-print("Last character:", last_char)
-print("error character:", error_char)
 
 
-#accesing characters using negative indexing
-#starts with -1
+
+#accessing characters using positive indexing
+#starts with 0
 first_char = sample_str[0]   # 'H'
 second_char = sample_str[1]  # 'e'
 third_char = sample_str[2]   # 'l'
@@ -78,15 +68,20 @@ print("Last character:", last_char)
 
 
 # Accessing characters using negative indexing
+#starts with -1
 last_char = sample_str[-1]    # 'o'
 fourth_char = sample_str[-2]   # 'l'
 third_char = sample_str[-3]  # 'l'
 second_char = sample_str[-4]   # 'e'
 first_char = sample_str[-5]   # 'H'
-error_char =  sample_str[-6] # IndexError 
+#error_char =  sample_str[-6] # IndexError 
 print("First character:", first_char)
 print("Second character:", second_char)
 print("Third character:", third_char)  
 print("Fourth character:", fourth_char)    
 print("Last character:", last_char)
-print("Error character:", error_char)
+#print("Error character:", error_char)
+
+#length of a string
+word = "hello"
+print("length of a word",len(word))
